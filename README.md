@@ -1,5 +1,5 @@
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
-Empleé el comando git reset --hard HEAD~1. Porque con este cambio eliminamos el último commit y no dejamos nada en el working copy. Si hubiese empleado git reset HEAD~1 habría eliminado el último commit pero mis modificaciones hubieran quedado en el working copy.
+Empleé el comando git reset --hard HEAD ~ 1. Porque con este cambio eliminamos el último commit y no dejamos nada en el working copy. Si hubiese empleado git reset HEAD ~ 1 habría eliminado el último commit pero mis modificaciones hubieran quedado en el working copy.
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 Utilicé git reflog para ver el identificador de mi último commit, tras esto lo copié y empleé el código git reset --hard “código” para que me llevase de vuelta a ese commit.
